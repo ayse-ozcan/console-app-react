@@ -1,0 +1,54 @@
+{
+  "user": [
+    {
+      "firstname": "Ayse",
+      "lastname": "Ozcan",
+      "gender": "female",
+      "roles": "1",
+      "id": 1
+    }
+  ],
+  "flow": [
+    {
+      "name": "Ayse Ozcan",
+      "tasks": "1",
+      "id": 1
+    }
+  ],
+  "permission": [
+    {
+      "name": "Create Role",
+      "id": 1
+    },
+    {
+      "name": "Alter Role",
+      "id": 2
+    },
+    {
+      "name": "None",
+      "id": 3
+    }
+  ],
+  "role": [
+    {
+      "name": "Admin",
+      "permissions": "1,2",
+      "id": 1
+    },
+    {
+      "name": "User",
+      "permissions": "3",
+      "id": 2
+    }
+  ],
+  "task": [
+    {
+      "name": "Task1",
+      "id": 1
+    },
+    {
+      "name": "Task2",
+      "id": 2
+    }
+  ]
+}
